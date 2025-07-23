@@ -59,7 +59,7 @@ The content is structured using Bootstrap’s grid system, card components, resp
 ## Deployment
 This project can be hosted using any static site host such as GitHub Pages or Netlify. No backend or database is required.
 
-Link : https://keshavsoft-task-1.netlify.app/[https://keshavsoft-task-1.netlify.app/]
+Link : https://keshavsoft-task-1.netlify.app/
 ## How This Aligns With the Task
 - Used Bootstrap 5 from CDN only
 - Combined multiple Bootstrap components creatively to form a new layout
