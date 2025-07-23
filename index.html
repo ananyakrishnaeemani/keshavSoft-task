@@ -3,31 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern Business Hub</title>
+  <title>KeshavSoft – Elevate Your Digital Experience</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --ks-primary: #0069D9;
+      --ks-accent:  #20C997;
+      --ks-dark:    #1F2937;
+      --ks-light:   #F8FAFC;
+    }
+    .bg-primary, .btn-primary   { background-color: var(--ks-primary) !important; }
+    .btn-outline-teal           { color: var(--ks-accent); border-color: var(--ks-accent); }
+    .btn-outline-teal:hover     { background-color: var(--ks-accent); color:#fff; }
+    .ks-dark-bg                 { background-color: var(--ks-dark); }
+    .ks-light-bg                { background-color: var(--ks-light); }
+  </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="https://placehold.co/50x50" alt="Company logo - minimalist blue square with white initials" class="me-2">
-        ModernBiz
+        <!-- <img src="https://placehold.co/50x50" alt="KeshavSoft logo" class="me-2"> -->
+        KeshavSoft
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -52,35 +59,35 @@
     <div class="container">
       <div class="text-center mb-5">
         <h2 class="fw-bold">Our Core Services</h2>
-        <p class="text-muted">Quality solutions tailored to your needs</p>
+        <p class="text-muted">Reliable, scalable, and crafted for impact</p>
       </div>
       <div class="row g-4">
         <div class="col-md-4">
           <div class="card feature-card h-100 shadow-sm border-0">
-            <img src="https://placehold.co/600x400" class="card-img-top" alt="Web development illustration showing code on laptop screen">
+            <img src="assets/webdev.jpg" class="card-img-top" alt="Web development with code on screen">
             <div class="card-body">
-              <h5 class="card-title">Web Development</h5>
-              <p class="card-text">Custom websites built with modern technologies for optimal performance.</p>
+              <h5 class="card-title">Web Application Development</h5>
+              <p class="card-text">Robust frontend and backend solutions using modern stacks like React, Node.js, and Django.</p>
               <a href="#" class="btn btn-sm btn-outline-primary">Learn More</a>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card feature-card h-100 shadow-sm border-0">
-            <img src="https://placehold.co/600x400" class="card-img-top" alt="Mobile app mockup on phone with colorful interface">
+            <img src="assets/mobdev.png" class="card-img-top" alt="Mobile apps on phone interface">
             <div class="card-body">
-              <h5 class="card-title">Mobile Apps</h5>
-              <p class="card-text">Engaging mobile applications for iOS and Android platforms.</p>
+              <h5 class="card-title">Mobile App Development</h5>
+              <p class="card-text">Cross-platform mobile solutions using Flutter and React Native for intuitive experiences.</p>
               <a href="#" class="btn btn-sm btn-outline-primary">Learn More</a>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card feature-card h-100 shadow-sm border-0">
-            <img src="https://placehold.co/600x400" class="card-img-top" alt="Digital marketing concept with social media icons and graphs">
+            <img src="assets/ai.png" class="card-img-top" alt="Automation and AI">
             <div class="card-body">
-              <h5 class="card-title">Digital Marketing</h5>
-              <p class="card-text">Strategic marketing to increase your online visibility and growth.</p>
+              <h5 class="card-title">Automation & AI</h5>
+              <p class="card-text">Smart systems including chatbots, analytics, and automation tools to optimize business workflows.</p>
               <a href="#" class="btn btn-sm btn-outline-primary">Learn More</a>
             </div>
           </div>
@@ -89,26 +96,22 @@
     </div>
   </section>
 
-   <section class="py-5 bg-light">
+  <section class="py-5 bg-light">
     <div class="container">
       <div class="text-center mb-5">
         <h2 class="fw-bold">What Our Clients Say</h2>
-        <p class="text-muted">Trusted by businesses worldwide</p>
+        <p class="text-muted">Trusted by startups and enterprises alike</p>
       </div>
       <div class="row g-4">
         <div class="col-md-4">
           <div class="card h-100 shadow-sm">
             <div class="card-body text-center p-4">
-              <img src="https://placehold.co/100x100" class="rounded-circle testimonial-img mb-3" alt="Portrait of satisfied client Sarah Johnson smiling">
-              <h5 class="card-title">Sarah Johnson</h5>
-              <p class="text-muted mb-2">CEO, TechSolutions</p>
-              <p class="card-text">"Their web development team transformed our online presence completely. Highly recommended!"</p>
+              <img src="assets/4.jpg" class="rounded-circle testimonial-img mb-3" alt="Portrait of Anjali Mehta">
+              <h5 class="card-title">Anjali Mehta</h5>
+              <p class="text-muted mb-2">Founder, EduLearn</p>
+              <p class="card-text">"KeshavSoft delivered a seamless learning platform for us. Their developers truly understand user experience."</p>
               <div class="text-warning">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
             </div>
           </div>
@@ -116,16 +119,12 @@
         <div class="col-md-4">
           <div class="card h-100 shadow-sm">
             <div class="card-body text-center p-4">
-              <img src="https://placehold.co/100x100" class="rounded-circle testimonial-img mb-3" alt="Portrait of satisfied client Michael Chen in business attire">
-              <h5 class="card-title">Michael Chen</h5>
-              <p class="text-muted mb-2">Director, InnovateX</p>
-              <p class="card-text">"The mobile app they developed for us exceeded all our expectations in user engagement."</p>
+              <img src="assets/5.jpeg" class="rounded-circle testimonial-img mb-3" alt="Portrait of Raj Malhotra">
+              <h5 class="card-title">Raj Malhotra</h5>
+              <p class="text-muted mb-2">CTO, FinWell</p>
+              <p class="card-text">"Their API team helped us scale our microservices with ease. Fast delivery and quality assurance!"</p>
               <div class="text-warning">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
               </div>
             </div>
           </div>
@@ -133,16 +132,12 @@
         <div class="col-md-4">
           <div class="card h-100 shadow-sm">
             <div class="card-body text-center p-4">
-              <img src="https://placehold.co/100x100" class="rounded-circle testimonial-img mb-3" alt="Portrait of satisfied client Emma Rodriguez with cheerful expression">
-              <h5 class="card-title">Emma Rodriguez</h5>
-              <p class="text-muted mb-2">Marketing Head, BrandUp</p>
-              <p class="card-text">"Their digital marketing strategies doubled our lead conversion in just three months."</p>
+              <img src="assets/6.jpg" class="rounded-circle testimonial-img mb-3" alt="Portrait of Tanya Sinha">
+              <h5 class="card-title">Tanya Sinha</h5>
+              <p class="text-muted mb-2">Head of Ops, QuickKart</p>
+              <p class="card-text">"From dashboards to internal tools, KeshavSoft consistently delivered on every milestone."</p>
               <div class="text-warning">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
             </div>
           </div>
@@ -163,8 +158,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 mb-4">
-          <h5 class="fw-bold mb-3">ModernBiz</h5>
-          <p>Innovative digital solutions for forward-thinking businesses.</p>
+          <h5 class="fw-bold mb-3">KeshavSoft</h5>
+          <p>Crafting high-performance digital products with precision and care.</p>
           <div class="d-flex gap-3 mt-3">
             <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
             <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
@@ -183,29 +178,26 @@
         <div class="col-lg-3 col-md-6 mb-4">
           <h5 class="fw-bold mb-3">Services</h5>
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="#" class="text-white">Web Development</a></li>
-            <li class="mb-2"><a href="#" class="text-white">Mobile Apps</a></li>
-            <li class="mb-2"><a href="#" class="text-white">Digital Marketing</a></li>
+            <li class="mb-2"><a href="#" class="text-white">Web Applications</a></li>
+            <li class="mb-2"><a href="#" class="text-white">Mobile Solutions</a></li>
+            <li class="mb-2"><a href="#" class="text-white">AI & Automation</a></li>
           </ul>
         </div>
         <div class="col-lg-3 mb-4">
           <h5 class="fw-bold mb-3">Contact Us</h5>
-          <p><i class="fas fa-map-marker-alt me-2"></i> 123 Business Ave, Suite 100</p>
-          <p><i class="fas fa-phone me-2"></i> (555) 123-4567</p>
-          <p><i class="fas fa-envelope me-2"></i> info@modernbiz.com</p>
+          <p><i class="fas fa-map-marker-alt me-2"></i> 456 Tech Park, Bengaluru</p>
+          <p><i class="fas fa-phone me-2"></i> +91 98765 43210</p>
+          <p><i class="fas fa-envelope me-2"></i> hello@keshavsoft.com</p>
         </div>
       </div>
       <hr class="my-4">
       <div class="text-center">
-        <p class="mb-0">&copy; 2023 ModernBiz. All rights reserved.</p>
+        <p class="mb-0">&copy; 2025 KeshavSoft. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>

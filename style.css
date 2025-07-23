@@ -1,5 +1,5 @@
 .hero-section {
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://placehold.co/1920x1080');
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://media.istockphoto.com/id/1830042746/photo/document-management-system-dms-with-arrange-folder-and-files-icons-man-setup-storage-backup.jpg?s=612x612&w=0&k=20&c=t8oAAO16j6fMhleAYJEXm5pSXFIDZrEG6sYJkv_Sdos=');
       background-size: cover;
       height: 80vh;
       display: flex;
@@ -17,7 +17,7 @@
       object-fit: cover;
     }
 .contact-hero {
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://placehold.co/1920x1080');
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://t3.ftcdn.net/jpg/02/98/00/02/360_F_298000277_BGQ5Xde9HKvc3aRji8PoBHWV14RDBxxC.jpg');
       background-size: cover;
       height: 60vh;
       display: flex;
@@ -40,15 +40,15 @@
       border-radius: 8px;
     }
 .about-hero {
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://placehold.co/1920x1080');
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://t3.ftcdn.net/jpg/02/98/00/02/360_F_298000277_BGQ5Xde9HKvc3aRji8PoBHWV14RDBxxC.jpg');
       background-size: cover;
       height: 60vh;
       display: flex;
       align-items: center;
     }
 .team-member img {
-      width: 200px;
-      height: 200px;
+      width: 100px;
+      height: 100px;
       object-fit: cover;
     }
 .timeline {
@@ -78,4 +78,12 @@
       border-radius: 50%;
       background: #0d6efd;
       border: 4px solid white;
+}
+.team-member {
+  width: 160px;              
+  height: 160px;
+  object-fit: cover;         
+  border-radius: 50%;        
+  border: 4px solid #ffffff; 
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); 
 }
