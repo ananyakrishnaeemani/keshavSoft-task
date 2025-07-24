@@ -2,7 +2,7 @@
 This is a responsive, multi-page website built using Bootstrap 5. The project demonstrates the use of core Bootstrap components with modern layout practices. It is created as part of an internship assignment to showcase frontend design and Bootstrap proficiency.
 
 ## Overview
-The site presents a company "KeshavSoft" and includes three primary pages:
+The site presents a company and includes three primary pages:
 
 - Home – Introduction to the brand and core services
 - About – Company story, values, milestones, and team members
